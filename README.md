@@ -2,6 +2,9 @@
 
 Une application Android de quiz éducatif interactif pour 1 ou 2 joueurs, avec génération de questions par IA (Gemini), détection de gestes par caméra et système de gamification.
 
+<img width="876" height="472" alt="image" src="https://github.com/user-attachments/assets/123297df-3768-4c5f-a008-393d356ef724" />
+
+
 ---
 
 ## 📱 Fonctionnalités
