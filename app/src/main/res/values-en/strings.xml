@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="terms_title">Terms of Use</string>
+    <string name="terms_message">By using this Quiz app, you agree that your scores will be saved locally on this device. Have fun!</string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_quit">Quit</string>
+
+    <string name="app_display_name">QUIZ MASTER</string>
+    <string name="app_version">Version 1.0</string>
+
+    <string name="avatar_saved_success">Avatar saved successfully!</string>
+    <string-array name="shape_names">
+        <item>Square</item>
+        <item>Circle</item>
+        <item>Triangle</item>
+        <item>Star</item>
+    </string-array>
+    <string-array name="color_names">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </string-array>
+    <string name="subtitle_customization">Customize your hero</string>
+    <string name="title_customization">Avatar</string>
+    <string name="label_shapes">Shapes</string>
+    <string name="label_colors">Colors</string>
+    <string name="btn_save_avatar">Save</string>
+    <string name="desc_avatar_preview">Avatar preview</string>
+
+    <string name="default_anonymous">Anonymous</string>
+    <string-array name="quiz_options">
+        <item>Answer 1</item>
+        <item>Answer 2</item>
+        <item>Answer 3</item>
+        <item>Answer 4</item>
+    </string-array>
+    <string name="error_all_fields_required">All fields are required</string>
+    <string name="msg_save_success">Question saved successfully!</string>
+    <string name="msg_save_error">Error during saving</string>
+
+    <string name="new_quiz">New Quiz</string>
+    <string name="subtitle_create_quiz">Create your own challenges</string>
+    <string name="hint_theme">Theme (ex: IT)</string>
+    <string name="hint_question">Your question…</string>
+    <string name="label_responses">Possible answers</string>
+    <string name="hint_answer_1">Answer 1</string>
+    <string name="hint_answer_2">Answer 2</string>
+    <string name="hint_answer_3">Answer 3</string>
+    <string name="hint_answer_4">Answer 4</string>
+    <string name="label_correct_answer">Correct answer:</string>
+    <string name="btn_save">Save question</string>
+
+    <string name="score_title">Score: %1$d</string>
+    <string name="desc_hand_1_preview">Hand #1 preview</string>
+    <string name="desc_hand_2_preview">Hand #2 preview</string>
+    <string name="desc_hand_3_preview">Hand #3 preview</string>
+    <string name="desc_hand_4_preview">Hand #4 preview</string>
+    <string name="timer_default">5s</string>
+    <string name="loading_question">Loading question…</string>
+    <string name="score_title_table">Scoreboard</string>
+    <string name="score_j1_default">P1: 0</string>
+    <string name="score_j2_default">P2: 0</string>
+
+    <string name="feature_coming_soon">This feature is coming soon!</string>
+    <string name="duel_mode_title">Duel Mode</string>
+    <string name="duel_subtitle">Challenge your friends</string>
+    <string name="local_duel">Local Duel (Camera)</string>
+    <string name="online_duel">Online Duel</string>
+
+    <string name="error_no_questions">No questions found for %1$s</string>
+    <string name="game_over">Game Over</string>
+    <string name="victory">Your score: %1$d</string>
+    <string name="timer_seconds">%1$ds</string>
+    <string name="theme_mixed">Mixed</string>
+    <string name="dialog_ok">OK</string>
+    <string name="answer_placeholder">Answer</string>
+
+    <string name="no_questions_to_delete">No questions to delete</string>
+    <string name="dialog_delete_all_title">Delete all?</string>
+    <string name="dialog_delete_all_message">Do you really want to delete all questions?</string>
+    <string name="dialog_delete_theme_confirm">Do you want to delete the theme %1$s</string>
+    <string name="btn_delete_confirm">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="theme_untitled">Untitled Theme</string>
+    <string name="title_library">Library</string>
+    <string name="subtitle_library">Manage your themes and questions</string>
+    <string name="confirm_delete_theme">Do you really want to delete this theme and all its questions?</string>
+    <string name="delete_success">Successfully deleted</string>
+
+    <string name="welcome_back">Welcome back %1$s!</string>
+    <string name="error_fields_empty">Please fill in all fields.</string>
+    <string name="error_fill_all_fields">Please fill in all fields</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    <string name="error_technical">A technical error occurred</string>
+    <string name="subtitle_login">Log in to play</string>
+    <string name="hint_pseudo">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_create_account">Create an account</string>
+    <string name="error_invalid_login">Incorrect username or password</string>
+
+    <string name="dialog_theme_name">Theme name</string>
+    <string name="btn_import">Import</string>
+    <string name="dialog_prompt_copied_title">Prompt copied!</string>
+    <string name="dialog_prompt_copied_msg">Paste it into Gemini to generate the quiz.</string>
+    <string name="btn_go_to_gemini">Go to Gemini</string>
+    <string name="tuto_required">Please complete the tutorial first!</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_zh">Chinois</string>
+    <string name="default_user_name">Player</string>
+    <string name="import_success">Quiz imported successfully!</string>
+    <string name="import_error">Error importing JSON</string>
+    <string name="app_name">QUIZ MASTER</string>
+    <string name="label_pseudo_default">USERNAME</string>
+    <string name="default_percent">0%</string>
+    <string name="btn_learn">PLAY</string>
+    <string name="btn_duel">DUEL</string>
+    <string name="btn_story">STORY MODE</string>
+    <string name="desc_btn_language">Change language</string>
+    <string name="desc_profile_image">Profile picture</string>
+    <string name="desc_icon_lock">Locked item</string>
+    <string name="desc_btn_gemini">Create with AI</string>
+    <string name="desc_btn_pdf">Import PDF</string>
+    <string name="desc_btn_create_quiz">Create manually</string>
+    <string name="desc_avatar_image">Your avatar</string>
+    <string name="desc_btn_dressing">Change outfit</string>
+
+    <string name="all_themes">All themes</string>
+    <string name="no_data_chart">No scores available for this period</string>
+    <string name="chart_label">%1$s\'s progress</string>
+    <string-array name="periodes_array">
+        <item>Overall</item>
+        <item>Last 24h</item>
+        <item>Last 7 days</item>
+        <item>Last 30 days</item>
+    </string-array>
+    <string name="title_my_profile">My Profile</string>
+    <string name="label_stats_subtitle">Check your performance</string>
+    <string name="label_score_evolution">Score evolution</string>
+    <string name="btn_library_full">Full library</string>
+    <string name="btn_logout">Logout</string>
+    <string name="desc_profile_icon">Profile icon</string>
+    <string name="desc_spinner_period">Select period</string>
+    <string name="desc_spinner_theme">Select theme</string>
+    <string name="desc_score_chart">Score chart</string>
+
+    <string name="register_success">Account created! Please log in.</string>
+    <string name="error_password_too_short">Password must be at least 4 characters.</string>
+    <string name="error_pseudo_length">Username: between 3 and 15 characters</string>
+    <string name="error_pseudo_special_chars">No special characters in username</string>
+    <string name="error_password_length">Password: 8 characters minimum</string>
+    <string name="error_db_technical">Database technical error</string>
+    <string name="title_register">Sign Up</string>
+    <string name="subtitle_register">Join the Quiz Master adventure</string>
+    <string name="hint_reg_pseudo">Username</string>
+    <string name="hint_reg_password">Password</string>
+    <string name="btn_confirm_register">Create account</string>
+    <string name="btn_back_to_login">Already have an account? Log in</string>
+    <string name="btn_already_have_account">Already have an account? Log in</string>
+    <string name="error_pseudo_taken">This username is already taken</string>
+    <string name="error_password_short">Password is too short</string>
+    <string name="msg_register_success">Account created successfully!</string>
+
+    <string name="error_session_expired">Error: Session expired</string>
+    <string name="preview_unavailable">Preview unavailable for this theme</string>
+    <string name="preview_title">Preview: %1$s</string>
+    <string name="loading">Loading…</string>
+    <string name="no_questions_found">No questions found.</string>
+    <string name="theme_all_categories">All themes</string>
+    <string name="preview_correct_answer">✅ Answer: %1$d</string>
+    <string name="preview_no_questions">No questions for this theme.</string>
+    <string name="title_select_theme">Select a theme</string>
+    <string name="subtitle_select_theme">Select your daily challenge</string>
+    <string name="no_themes_available">No themes available at the moment</string>
+    <string name="loading_themes">Loading themes…</string>
+
+    <string name="level_already_won">Level already won! 🏆</string>
+    <string name="level_locked">Level locked! Complete level %1$d first.</string>
+    <string name="level_1">Level 1: Tutorial</string>
+    <string name="level_2">Level 2: Systems</string>
+    <string name="level_3">Level 3: Networks</string>
+    <string name="level_4">Level 4: AI</string>
+    <string name="level_coming_soon">Coming soon...</string>
+    <string name="default_level_name">LEVEL 1</string>
+    <string name="desc_status_icon">Level status</string>
+
+    <string name="default_theme_name">THEME NAME</string>
+    <string name="btn_close_symbol">X</string>
+    <string name="desc_delete_theme">Delete theme</string>
+
+    <string name="title_sheet_questions">Theme Questions</string>
+    <string name="import_theme_required">Please enter a theme name before importing.</string>
+    <string name="error_invalid_question_format">The question must be 100 characters or less and contain only letters, numbers, spaces, and + - * / =</string>
+</resources>

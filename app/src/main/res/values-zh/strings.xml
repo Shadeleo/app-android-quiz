@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="terms_title">使用条款</string>
+    <string name="terms_message">通过使用此测试应用程序，您同意您的分数将保存在本地设备上。玩得开心！</string>
+    <string name="btn_accept">接受</string>
+    <string name="btn_quit">退出</string>
+
+    <string name="app_display_name">测试大师 (QUIZ MASTER)</string>
+    <string name="app_version">版本 1.0</string>
+
+    <string name="avatar_saved_success">头像保存成功！</string>
+    <string-array name="shape_names">
+        <item>正方形</item>
+        <item>圆形</item>
+        <item>三角形</item>
+        <item>星形</item>
+    </string-array>
+    <string-array name="color_names">
+        <item>蓝色</item>
+        <item>红色</item>
+        <item>绿色</item>
+        <item>黄色</item>
+    </string-array>
+    <string name="subtitle_customization">个性化您的英雄</string>
+    <string name="title_customization">头像</string>
+    <string name="label_shapes">形状</string>
+    <string name="label_colors">颜色</string>
+    <string name="btn_save_avatar">保存</string>
+    <string name="desc_avatar_preview">头像预览</string>
+
+    <string name="default_anonymous">匿名</string>
+    <string-array name="quiz_options">
+        <item>回答 1</item>
+        <item>回答 2</item>
+        <item>回答 3</item>
+        <item>回答 4</item>
+    </string-array>
+    <string name="error_all_fields_required">所有字段均为必填项</string>
+    <string name="msg_save_success">问题保存成功！</string>
+    <string name="msg_save_error">保存时出错</string>
+
+    <string name="new_quiz">新测试</string>
+    <string name="subtitle_create_quiz">创建您自己的挑战</string>
+    <string name="hint_theme">主题（例如：信息技术）</string>
+    <string name="hint_question">您的问题…</string>
+    <string name="label_responses">备选答案</string>
+    <string name="hint_answer_1">回答 1</string>
+    <string name="hint_answer_2">回答 2</string>
+    <string name="hint_answer_3">回答 3</string>
+    <string name="hint_answer_4">回答 4</string>
+    <string name="label_correct_answer">正确答案：</string>
+    <string name="btn_save">保存问题</string>
+
+    <string name="score_title">分数: %1$d</string>
+    <string name="desc_hand_1_preview">手势 #1 预览</string>
+    <string name="desc_hand_2_preview">手势 #2 预览</string>
+    <string name="desc_hand_3_preview">手势 #3 预览</string>
+    <string name="desc_hand_4_preview">手势 #4 预览</string>
+    <string name="timer_default">5秒</string>
+    <string name="loading_question">正在加载问题…</string>
+    <string name="score_title_table">记分板</string>
+    <string name="score_j1_default">J1: 0</string>
+    <string name="score_j2_default">J2: 0</string>
+
+    <string name="feature_coming_soon">此功能即将推出！</string>
+    <string name="duel_mode_title">对决模式</string>
+    <string name="duel_subtitle">挑战你的朋友</string>
+    <string name="local_duel">本地对决（摄像头）</string>
+    <string name="online_duel">在线对决</string>
+
+    <string name="error_no_questions">未找到 %1$s 的相关问题</string>
+    <string name="game_over">游戏结束</string>
+    <string name="victory">您的得分: %1$d</string>
+    <string name="timer_seconds">%1$d秒</string>
+    <string name="theme_mixed">混合</string>
+    <string name="dialog_ok">确定</string>
+    <string name="answer_placeholder">答案</string>
+
+    <string name="no_questions_to_delete">没有可删除的问题</string>
+    <string name="dialog_delete_all_title">全部删除？</string>
+    <string name="dialog_delete_all_message">您确定要删除所有问题吗？</string>
+    <string name="dialog_delete_theme_confirm">您要删除主题 %1$s 吗？</string>
+    <string name="btn_delete_confirm">删除</string>
+    <string name="btn_cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="theme_untitled">无标题主题</string>
+    <string name="title_library">题库</string>
+    <string name="subtitle_library">管理您的主题和问题</string>
+    <string name="confirm_delete_theme">您确定要删除此主题及其所有问题吗？</string>
+    <string name="delete_success">删除成功</string>
+
+    <string name="welcome_back">很高兴再次见到您 %1$s！</string>
+    <string name="error_fields_empty">请填写所有字段。</string>
+    <string name="error_fill_all_fields">请填写所有字段</string>
+    <string name="error_invalid_credentials">凭据无效</string>
+    <string name="error_technical">发生了技术错误</string>
+    <string name="subtitle_login">登录以开始游戏</string>
+    <string name="hint_pseudo">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_create_account">创建账户</string>
+    <string name="error_invalid_login">用户名或密码错误</string>
+
+    <string name="dialog_theme_name">主题名称</string>
+    <string name="btn_import">导入</string>
+    <string name="dialog_prompt_copied_title">提示词已复制！</string>
+    <string name="dialog_prompt_copied_msg">将其粘贴到 Gemini 中以生成测试。</string>
+    <string name="btn_go_to_gemini">前往 Gemini</string>
+    <string name="tuto_required">请先完成教程！</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_zh">Chinois</string>
+    <string name="default_user_name">玩家</string>
+    <string name="import_success">测试导入成功！</string>
+    <string name="import_error">JSON 导入时出错</string>
+    <string name="app_name">测试大师 (QUIZ MASTER)</string>
+    <string name="label_pseudo_default">用户名</string>
+    <string name="default_percent">0%</string>
+    <string name="btn_learn">开始游戏</string>
+    <string name="btn_duel">对决</string>
+    <string name="btn_story">故事模式</string>
+    <string name="desc_btn_language">更改语言</string>
+    <string name="desc_profile_image">个人资料图片</string>
+    <string name="desc_icon_lock">锁定项目</string>
+    <string name="desc_btn_gemini">使用 AI 创建</string>
+    <string name="desc_btn_pdf">导入 PDF</string>
+    <string name="desc_btn_create_quiz">手动创建</string>
+    <string name="desc_avatar_image">您的头像</string>
+    <string name="desc_btn_dressing">更换服装</string>
+
+    <string name="all_themes">所有主题</string>
+    <string name="no_data_chart">此时间段内无可用分数</string>
+    <string name="chart_label">%1$s 的进度</string>
+s    <string-array name="periodes_array">
+        <item>全局</item>
+        <item>最近24小时</item>
+        <item>最近7天</item>
+        <item>最近30天</item>
+    </string-array>
+    <string name="title_my_profile">我的个人资料</string>
+    <string name="label_stats_subtitle">查看您的表现</string>
+    <string name="label_score_evolution">得分演变</string>
+    <string name="btn_library_full">整个题库</string>
+    <string name="btn_logout">登出</string>
+    <string name="desc_profile_icon">个人资料图标</string>
+    <string name="desc_spinner_period">选择时间段</string>
+    <string name="desc_spinner_theme">选择主题</string>
+    <string name="desc_score_chart">得分图表</string>
+
+    <string name="register_success">账户已创建！请登录。</string>
+    <string name="error_password_too_short">密码必须至少包含4个字符。</string>
+    <string name="error_pseudo_length">用户名：3 到 15 个字符</string>
+    <string name="error_pseudo_special_chars">用户名中不能包含特殊字符</string>
+    <string name="error_password_length">密码：最少 8 个字符</string>
+    <string name="error_db_technical">数据库技术错误</string>
+    <string name="title_register">注册</string>
+    <string name="subtitle_register">加入测试大师的冒险之旅</string>
+    <string name="hint_reg_pseudo">用户名</string>
+    <string name="hint_reg_password">密码</string>
+    <string name="btn_confirm_register">创建账户</string>
+    <string name="btn_back_to_login">已有账户？登录</string>
+    <string name="btn_already_have_account">已有账户？登录</string>
+    <string name="error_pseudo_taken">此用户名已被占用</string>
+    <string name="error_password_short">密码太短</string>
+    <string name="msg_register_success">账户创建成功！</string>
+
+    <string name="error_session_expired">错误：会话已过期</string>
+    <string name="preview_unavailable">此主题无法预览</string>
+    <string name="preview_title">预览: %1$s</string>
+    <string name="loading">正在加载…</string>
+    <string name="no_questions_found">未找到任何问题。</string>
+    <string name="theme_all_categories">所有主题</string>
+    <string name="preview_correct_answer">✅ 答案: %1$d</string>
+    <string name="preview_no_questions">此主题下没有问题。</string>
+    <string name="title_select_theme">选择主题</string>
+    <string name="subtitle_select_theme">选择您的每日挑战</string>
+    <string name="no_themes_available">目前没有可用主题</string>
+    <string name="loading_themes">正在加载主题…</string>
+
+    <string name="level_already_won">关卡已获胜！🏆</string>
+    <string name="level_locked">关卡锁定！请先完成第 %1$d 关。</string>
+    <string name="level_1">第 1 关：教程</string>
+    <string name="level_2">第 2 关：系统</string>
+    <string name="level_3">第 3 关：网络</string>
+    <string name="level_4">第 4 关：人工智能</string>
+    <string name="level_coming_soon">敬请期待...</string>
+    <string name="default_level_name">第 1 关</string>
+    <string name="desc_status_icon">关卡状态</string>
+
+    <string name="default_theme_name">主题名称</string>
+    <string name="btn_close_symbol">X</string>
+    <string name="desc_delete_theme">删除主题</string>
+
+    <string name="title_sheet_questions">主题问题</string>
+    <string name="import_theme_required">导入前请输入主题名称。</string>
+    <string name="error_invalid_question_format">问题最多包含 100 个字符，且仅限字母、数字、空格及 + - * / =</string>
+</resources>

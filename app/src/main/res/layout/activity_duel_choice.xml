@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg_gradient"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/duel_mode_title"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/duel_subtitle"
+        android:textColor="@color/gray_text"
+        android:textSize="14sp"
+        android:layout_marginBottom="60dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLocalDuel"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/box"
+        android:backgroundTint="@color/accent_pro"
+        android:text="@string/local_duel"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOnlineDuel"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/box"
+        android:backgroundTint="#1AFFFFFF"
+        android:text="@string/online_duel"
+        android:textColor="@color/gray_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:alpha="0.6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feature_coming_soon"
+        android:textColor="@color/accent_pro"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:textAllCaps="true"
+        android:alpha="0.6"/>
+
+</LinearLayout>

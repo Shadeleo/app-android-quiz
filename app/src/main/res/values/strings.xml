@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- APP NAME -->
+
+    <!-- Main.java -->
+    <string name="terms_title" translatable="false">Conditions d\'Utilisation</string>
+    <string name="terms_message" translatable="false">En utilisant cette application de Quiz, vous acceptez que vos scores soient enregistrés localement sur cet appareil. Amusez-vous bien !</string>
+
+    <string name="btn_accept" translatable="false">Accepter</string>
+    <string name="btn_quit" translatable="false">Quitter</string>
+
+    <!--activity_main -->
+    <string name="app_display_name">QUIZ MASTER</string>
+    <string name="app_version">Version 1.0</string>
+
+
+    <!-- AvatarActivity.java -->
+    <string name="avatar_saved_success" tools:ignore="DuplicateDefinition">Avatar enregistré avec succès !</string>
+
+    <string-array name="shape_names">
+        <item>Carré</item>
+        <item>Cercle</item>
+        <item>Triangle</item>
+        <item>Étoile</item>
+    </string-array>
+    <string-array name="color_names">
+        <item>Bleu</item>
+        <item>Rouge</item>
+        <item>Vert</item>
+        <item>Jaune</item>
+    </string-array>
+    <!-- activity_avatar.xml -->
+    <string name="subtitle_customization">Personnalisez votre héros</string>
+    <string name="title_customization">Avatar</string>
+    <string name="label_shapes">Formes</string>
+    <string name="label_colors">Couleurs</string>
+    <string name="btn_save_avatar">Enregistrer</string>
+    <string name="desc_avatar_preview">Aperçu de l\'avatar</string>
+
+
+
+    <!-- CreateQuizActivity.java -->
+    <string name="default_anonymous">Anonyme</string>
+
+    <string-array name="quiz_options">
+        <item>Réponse 1</item>
+        <item>Réponse 2</item>
+        <item>Réponse 3</item>
+        <item>Réponse 4</item>
+    </string-array>
+    <!-- CreateQuizViewModel.java -->
+    <string name="error_all_fields_required">Tous les champs sont obligatoires</string>
+    <string name="msg_save_success">Question enregistrée avec succès !</string>
+    <string name="msg_save_error">Erreur lors de l\'enregistrement</string>
+    <string name="error_invalid_question_format">La question doit contenir au maximum 100 caractères, avec seulement lettres, chiffres, espaces et + - * / =</string>
+
+    <!-- activity_create_quiz.xml -->
+    <string name="new_quiz">Nouveau Quiz</string>
+    <string name="subtitle_create_quiz">Créez vos propres défis</string>
+    <string name="hint_theme">Thème (ex: Informatique)</string>
+    <string name="hint_question">Votre question…</string>
+    <string name="label_responses">Réponses possibles</string>
+    <string name="hint_answer_1">Réponse 1</string>
+    <string name="hint_answer_2">Réponse 2</string>
+    <string name="hint_answer_3">Réponse 3</string>
+    <string name="hint_answer_4">Réponse 4</string>
+    <string name="label_correct_answer">Réponse correcte :</string>
+    <string name="btn_save">Enregistrer la question</string>
+
+    <!--<string name="error_all_fields_required" tools:ignore="DuplicateDefinition">Veuillez remplir tous les champs</string>
+    <string name="msg_save_success" tools:ignore="DuplicateDefinition">Question enregistrée avec succès !</string>
+    <string name="msg_save_error" tools:ignore="DuplicateDefinition">Erreur lors de l\'enregistrement</string>
+
+    <string-array name="quiz_options" tools:ignore="DuplicateDefinition">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+    </string-array> -->
+
+    <!-- activity_duel_camera.xml -->
+    <string name="score_title" translatable="false">Score : %1$d</string>
+    <string name="desc_hand_1_preview">Aperçu de la main n°1</string>
+    <string name="desc_hand_2_preview">Aperçu de la main n°2</string>
+    <string name="desc_hand_3_preview">Aperçu de la main n°3</string>
+    <string name="desc_hand_4_preview">Aperçu de la main n°4</string>
+    <string name="timer_default">5s</string>
+    <string name="loading_question">Chargement de la question…</string>
+    <string name="score_title_table">Tableau des scores</string>
+    <string name="score_j1_default">J1 : 0</string>
+    <string name="score_j2_default">J2 : 0</string>
+
+    <!-- DuelChoiceViewModel.java -->
+    <!-- <string name="default_user_name">Joueur</string>-->
+    <string name="feature_coming_soon">Cette fonctionnalité arrive bientôt !</string>
+
+    <!-- activity_duel_choice.xml -->
+    <string name="duel_mode_title">Mode Duel</string>
+    <string name="duel_subtitle">Affrontez vos amis</string>
+    <string name="local_duel">Duel Local (Caméra)</string>
+    <string name="online_duel">Duel en ligne</string>
+    <!--<string name="feature_coming_soon">Bientôt disponible</string>
+    <string name="default_user_name">Joueur</string> -->
+
+    <!-- GameActivity.java -->
+    <string name="error_no_questions">Aucune question trouvée pour %1$s</string>
+    <string name="game_over">Partie Terminée</string>
+    <string name="victory">Votre score : %1$d</string>
+    <string name="timer_seconds">%1$ds</string>
+    <string name="theme_mixed">Mixte</string>
+    <string name="dialog_ok">OK</string>
+
+    <!-- activity_game.xml -->
+    <!--<string name="timer_seconds" tools:ignore="DuplicateDefinition">%1$ds</string>
+    <string name="error_no_questions" tools:ignore="DuplicateDefinition">Aucune question trouvée pour le thème %1$s.</string>
+    <string name="game_over" tools:ignore="DuplicateDefinition">Partie terminée !</string>
+    <string name="victory" tools:ignore="DuplicateDefinition">Votre score : %1$d</string>
+    <string name="dialog_ok" tools:ignore="DuplicateDefinition">Continuer</string>
+    <string name="theme_mixed" tools:ignore="DuplicateDefinition">Mixte</string> -->
+    <string name="answer_placeholder">Réponse</string>
+    <!-- <string name="loading_question" tools:ignore="DuplicateDefinition">Chargement…</string> -->
+
+    <!-- ListQcmActivity.java -->
+    <string name="no_questions_to_delete">Aucune question à supprimer</string>
+    <string name="dialog_delete_all_title">Supprimer tout ?</string>
+    <string name="dialog_delete_all_message">Voulez-vous vraiment supprimer toutes les questions ?</string>
+    <string name="dialog_delete_theme_confirm">Voulez-vous supprimer le thème %1$s</string>
+    <string name="btn_delete_confirm">Supprimer</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+
+    <!-- ListQcmView.java -->
+    <string name="theme_untitled">Sans Thème</string>
+
+    <!-- activity_list_qcm.xml -->
+    <string name="title_library">Bibliothèque</string>
+    <string name="subtitle_library">Gérez vos thèmes et questions</string>
+    <string name="confirm_delete_theme">Voulez-vous vraiment supprimer ce thème et toutes ses questions ?</string>
+    <string name="delete_success">Supprimé avec succès</string>
+
+
+    <!-- LoginActivity -->
+    <string name="welcome_back">Content de vous revoir %1$s !</string>
+    <string name="error_fields_empty" translatable="false">Veuillez remplir tous les champs.</string>
+
+    <!-- LoginViewModel.java -->
+    <string name="error_fill_all_fields">Veuillez remplir tous les champs</string>
+    <string name="error_invalid_credentials">Identifiants incorrects</string>
+    <string name="error_technical">Une erreur technique est survenue</string>
+
+    <!-- activity_login.xml -->
+    <!-- <string name="app_name">Quiz Game</string> -->
+    <string name="subtitle_login">Connectez-vous pour jouer</string>
+    <string name="hint_pseudo">Nom d\'utilisateur</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="btn_login">Se connecter</string>
+    <string name="btn_create_account">Créer un compte</string>
+    <string name="error_invalid_login">Pseudo ou mot de passe incorrect</string>
+
+    <!-- MenuActivity.java -->
+    <string name="dialog_theme_name">Nom du thème</string>
+    <string name="btn_import">Importer</string>
+    <string name="dialog_prompt_copied_title">Prompt copié !</string>
+    <string name="dialog_prompt_copied_msg">Collez-le dans Gemini pour générer le quiz.</string>
+    <string name="btn_go_to_gemini">Aller sur Gemini</string>
+    <string name="tuto_required">Veuillez terminer le tutoriel d\'abord !</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_zh">Chinois</string>
+
+    <!-- MenuViewModel.java -->
+    <string name="default_user_name">Joueur</string>
+    <string name="import_success">Quiz importé avec succès !</string>
+    <string name="import_error">Erreur lors de l\'importation du JSON</string>
+    <string name="import_theme_required">Veuillez saisir un nom de thème avant d’importer.</string>
+
+    <!-- activity_menu.xml -->
+    <string name="app_name">QUIZ MASTER</string>
+    <string name="label_pseudo_default">PSEUDO</string>
+    <string name="default_percent">0%</string>
+    <string name="btn_learn">JOUER</string>
+    <string name="btn_duel">DUEL</string>
+    <string name="btn_story">MODE HISTOIRE</string>
+    <string name="desc_btn_language">Changer la langue</string>
+    <string name="desc_profile_image">Photo de profil</string>
+    <string name="desc_icon_lock">Élément verrouillé</string>
+    <string name="desc_btn_gemini">Créer avec l\'IA</string>
+    <string name="desc_btn_pdf">Importer un PDF</string>
+    <string name="desc_btn_create_quiz">Créer manuellement</string>
+    <string name="desc_avatar_image">Votre avatar</string>
+    <string name="desc_btn_dressing">Changer de tenue</string>
+
+    <!-- ProfileActivity.java -->
+    <string name="all_themes">Tous les thèmes</string>
+    <string name="no_data_chart">Aucun score disponible pour cette période</string>
+    <string name="chart_label">Progression de %1$s</string>
+    <!--<string name="loading_question" tools:ignore="DuplicateDefinition">Chargement des données...</string> -->
+
+
+    <string-array name="periodes_array">
+        <item>Global</item>
+        <item>Dernières 24h</item>
+        <item>7 derniers jours</item>
+        <item>30 derniers jours</item>
+    </string-array>
+
+    <!-- activity_profile.xml -->
+    <string name="title_my_profile">Mon Profil</string>
+    <string name="label_stats_subtitle">Consultez vos performances</string>
+    <string name="label_score_evolution">Évolution de vos scores</string>
+    <string name="btn_library_full">Toute la bibliothèque</string>
+    <string name="btn_logout">Se déconnecter</string>
+    <string name="desc_profile_icon">Icône de profil</string>
+    <string name="desc_spinner_period">Choisir la période</string>
+    <string name="desc_spinner_theme">Choisir le thème</string>
+    <string name="desc_score_chart">Graphique des scores</string>
+
+    <!-- RegisterActivier.java -->
+    <string name="register_success">Compte créé ! Connectez-vous.</string>
+    <string name="error_password_too_short" translatable="false">Le mot de passe doit contenir au moins 4 caractères.</string>
+
+    <!-- RegisterViewModel.java -->
+    <string name="error_pseudo_length">Pseudo : entre 3 et 15 caractères</string>
+    <string name="error_pseudo_special_chars">Pas de caractères spéciaux dans le pseudo</string>
+    <string name="error_password_length">Mot de passe : 8 caractères minimum</string>
+    <!-- <string name="error_pseudo_taken" tools:ignore="DuplicateDefinition">Ce pseudo est déjà utilisé</string> -->
+    <string name="error_db_technical">Erreur technique de base de données</string>
+
+    <!-- activity_register.xml -->
+
+    <string name="title_register">Inscription</string>
+    <string name="subtitle_register">Rejoignez l\'\aventure Quiz Master</string>
+    <string name="hint_reg_pseudo">Pseudo</string>
+    <string name="hint_reg_password">Mot de passe</string>
+    <string name="btn_confirm_register">Créer mon compte</string>
+    <string name="btn_back_to_login">Déjà un compte ? Connectez-vous</string>
+
+    <string name="btn_already_have_account">Déjà un compte ? Connectez-vous</string>
+
+    <string name="error_pseudo_taken" tools:ignore="DuplicateDefinition">Ce pseudo est déjà utilisé</string>
+    <string name="error_password_short">Le mot de passe est trop court</string>
+    <string name="msg_register_success">Compte créé avec succès !</string>
+
+    <!-- SelectionThemeActivity.java -->
+    <string name="error_session_expired">Erreur : Session expirée</string>
+    <string name="preview_unavailable">Aperçu indisponible pour ce thème</string>
+    <string name="preview_title">Aperçu : %1$s</string>
+    <string name="loading">Chargement…</string>
+    <string name="no_questions_found">Aucune question trouvée.</string>
+
+    <!-- SelectionThemeViewModel.java -->
+    <string name="theme_all_categories">Tous les thèmes</string>
+    <string name="preview_correct_answer">✅ Réponse : %1$d</string>
+    <string name="preview_no_questions">Aucune question pour ce thème.</string>
+
+    <!-- activity_selection_theme.xml -->
+    <string name="title_select_theme">Choisir un thème</string>
+    <string name="subtitle_select_theme">Sélectionnez votre défi du jour</string>
+    <string name="no_themes_available">Aucun thème disponible pour le moment</string>
+    <string name="loading_themes">Chargement des thèmes…</string>
+
+    <!-- StoryActivity.java -->
+    <string name="level_already_won">Niveau déjà réussi ! 🏆</string>
+    <string name="level_locked">Niveau verrouillé ! Complétez le niveau %1$d d\'abord.</string>
+    <string name="level_1">Niveau 1 : Tuto</string>
+    <string name="level_2">Niveau 2 : Système</string>
+    <string name="level_3">Niveau 3 : Réseaux</string>
+    <string name="level_4">Niveau 4 : IA</string>
+    <string name="level_coming_soon">Bientôt disponible...</string>
+
+    <!-- item_level_story.xml -->
+    <string name="default_level_name">NIVEAU 1</string>
+    <string name="desc_status_icon">État du niveau</string>
+
+    <!-- item_theme_group -->
+    <string name="default_theme_name">NOM DU THÈME</string>
+    <string name="btn_close_symbol">X</string>
+    <string name="desc_delete_theme">Supprimer le thème</string>
+
+
+    <!-- layout_bottom.xml -->
+    <string name="title_sheet_questions">Questions du thème</string>
+
+</resources>

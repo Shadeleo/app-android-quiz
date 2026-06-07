@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="terms_title">Términos de Uso</string>
+    <string name="terms_message">Al usar esta aplicación de Quiz, aceptas que tus puntuaciones se guarden localmente en este dispositivo. ¡Diviértete!</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_quit">Salir</string>
+
+    <string name="app_display_name">QUIZ MASTER</string>
+    <string name="app_version">Versión 1.0</string>
+
+    <string name="avatar_saved_success">¡Avatar guardado con éxito!</string>
+    <string-array name="shape_names">
+        <item>Cuadrado</item>
+        <item>Círculo</item>
+        <item>Triángulo</item>
+        <item>Estrella</item>
+    </string-array>
+    <string-array name="color_names">
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+    </string-array>
+    <string name="subtitle_customization">Personaliza tu héroe</string>
+    <string name="title_customization">Avatar</string>
+    <string name="label_shapes">Formas</string>
+    <string name="label_colors">Colores</string>
+    <string name="btn_save_avatar">Guardar</string>
+    <string name="desc_avatar_preview">Vista previa del avatar</string>
+
+    <string name="default_anonymous">Anónimo</string>
+    <string-array name="quiz_options">
+        <item>Respuesta 1</item>
+        <item>Respuesta 2</item>
+        <item>Respuesta 3</item>
+        <item>Respuesta 4</item>
+    </string-array>
+    <string name="error_all_fields_required">Todos los campos son obligatorios</string>
+    <string name="msg_save_success">¡Pregunta guardada con éxito!</string>
+    <string name="msg_save_error">Error al guardar</string>
+
+    <string name="new_quiz">Nuevo Quiz</string>
+    <string name="subtitle_create_quiz">Crea tus propios desafíos</string>
+    <string name="hint_theme">Tema (ej: Informática)</string>
+    <string name="hint_question">Tu pregunta…</string>
+    <string name="label_responses">Respuestas posibles</string>
+    <string name="hint_answer_1">Respuesta 1</string>
+    <string name="hint_answer_2">Respuesta 2</string>
+    <string name="hint_answer_3">Respuesta 3</string>
+    <string name="hint_answer_4">Respuesta 4</string>
+    <string name="label_correct_answer">Respuesta correcta:</string>
+    <string name="btn_save">Guardar pregunta</string>
+
+    <string name="score_title">Puntos: %1$d</string>
+    <string name="desc_hand_1_preview">Vista previa mano #1</string>
+    <string name="desc_hand_2_preview">Vista previa mano #2</string>
+    <string name="desc_hand_3_preview">Vista previa mano #3</string>
+    <string name="desc_hand_4_preview">Vista previa mano #4</string>
+    <string name="timer_default">5s</string>
+    <string name="loading_question">Cargando pregunta…</string>
+    <string name="score_title_table">Tabla de puntuaciones</string>
+    <string name="score_j1_default">J1: 0</string>
+    <string name="score_j2_default">J2: 0</string>
+
+    <string name="feature_coming_soon">¡Esta función estará disponible pronto!</string>
+    <string name="duel_mode_title">Modo Duelo</string>
+    <string name="duel_subtitle">Enfréntate a tus amigos</string>
+    <string name="local_duel">Duelo Local (Cámara)</string>
+    <string name="online_duel">Duelo en línea</string>
+
+    <string name="error_no_questions">No se encontraron preguntas para %1$s</string>
+    <string name="game_over">Fin de la partida</string>
+    <string name="victory">Tu puntuación: %1$d</string>
+    <string name="timer_seconds">%1$ds</string>
+    <string name="theme_mixed">Mixto</string>
+    <string name="dialog_ok">Aceptar</string>
+    <string name="answer_placeholder">Respuesta</string>
+
+    <string name="no_questions_to_delete">No hay preguntas para eliminar</string>
+    <string name="dialog_delete_all_title">¿Eliminar todo?</string>
+    <string name="dialog_delete_all_message">¿Realmente quieres eliminar todas las preguntas?</string>
+    <string name="dialog_delete_theme_confirm">¿Quieres eliminar el tema %1$s?</string>
+    <string name="btn_delete_confirm">Eliminar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="theme_untitled">Sin tema</string>
+    <string name="title_library">Biblioteca</string>
+    <string name="subtitle_library">Gestiona tus temas y preguntas</string>
+    <string name="confirm_delete_theme">¿Realmente quieres eliminar este tema y todas sus preguntas?</string>
+    <string name="delete_success">Eliminado con éxito</string>
+
+    <string name="welcome_back">¡Qué bueno verte de nuevo %1$s!</string>
+    <string name="error_fields_empty">Por favor, completa todos los campos.</string>
+    <string name="error_fill_all_fields">Por favor, rellene todos los campos</string>
+    <string name="error_invalid_credentials">Credenciales incorrectas</string>
+    <string name="error_technical">Ocurrió un error técnico</string>
+    <string name="subtitle_login">Inicia sesión para jugar</string>
+    <string name="hint_pseudo">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_create_account">Crear cuenta</string>
+    <string name="error_invalid_login">Usuario o contraseña incorrectos</string>
+
+    <string name="dialog_theme_name">Nombre del tema</string>
+    <string name="btn_import">Importar</string>
+    <string name="dialog_prompt_copied_title">¡Prompt copiado!</string>
+    <string name="dialog_prompt_copied_msg">Pégalo en Gemini para generar el quiz.</string>
+    <string name="btn_go_to_gemini">Ir a Gemini</string>
+    <string name="tuto_required">¡Por favor, completa el tutorial primero!</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_zh">Chinois</string>
+    <string name="default_user_name">Jugador</string>
+    <string name="import_success">¡Quiz importado con éxito!</string>
+    <string name="import_error">Error al importar el JSON</string>
+    <string name="app_name">QUIZ MASTER</string>
+    <string name="label_pseudo_default">APODO</string>
+    <string name="default_percent">0%</string>
+    <string name="btn_learn">JUGAR</string>
+    <string name="btn_duel">DUELO</string>
+    <string name="btn_story">MODO HISTORIA</string>
+    <string name="desc_btn_language">Cambiar idioma</string>
+    <string name="desc_profile_image">Foto de perfil</string>
+    <string name="desc_icon_lock">Elemento bloqueado</string>
+    <string name="desc_btn_gemini">Crear con IA</string>
+    <string name="desc_btn_pdf">Importar PDF</string>
+    <string name="desc_btn_create_quiz">Crear manualmente</string>
+    <string name="desc_avatar_image">Tu avatar</string>
+    <string name="desc_btn_dressing">Cambiar de ropa</string>
+
+    <string name="all_themes">Todos los temas</string>
+    <string name="no_data_chart">No hay puntuaciones para este periodo</string>
+    <string name="chart_label">Progreso de %1$s</string>
+    <string-array name="periodes_array">
+        <item>Global</item>
+        <item>Últimas 24h</item>
+        <item>Últimos 7 días</item>
+        <item>Últimos 30 días</item>
+    </string-array>
+    <string name="title_my_profile">Mi Perfil</string>
+    <string name="label_stats_subtitle">Consulta tu rendimiento</string>
+    <string name="label_score_evolution">Evolución de puntuaciones</string>
+    <string name="btn_library_full">Toda la biblioteca</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="desc_profile_icon">Icono de perfil</string>
+    <string name="desc_spinner_period">Seleccionar periodo</string>
+    <string name="desc_spinner_theme">Seleccionar tema</string>
+    <string name="desc_score_chart">Gráfico de puntuaciones</string>
+
+    <string name="register_success">¡Cuenta creada! Inicia sesión.</string>
+    <string name="error_password_too_short">La contraseña debe tener al menos 4 caracteres.</string>
+    <string name="error_pseudo_length">Usuario: entre 3 y 15 caracteres</string>
+    <string name="error_pseudo_special_chars">Sin caracteres especiales en el usuario</string>
+    <string name="error_password_length">Contraseña: 8 caracteres mínimo</string>
+    <string name="error_db_technical">Error técnico de base de datos</string>
+    <string name="title_register">Registro</string>
+    <string name="subtitle_register">Únete a la aventura de Quiz Master</string>
+    <string name="hint_reg_pseudo">Apodo</string>
+    <string name="hint_reg_password">Contraseña</string>
+    <string name="btn_confirm_register">Crear mi cuenta</string>
+    <string name="btn_back_to_login">¿Ya tienes cuenta? Iniciar sesión</string>
+    <string name="btn_already_have_account">¿Ya tienes cuenta? Iniciar sesión</string>
+    <string name="error_pseudo_taken">Este apodo ya está en uso</string>
+    <string name="error_password_short">La contraseña es demasiado corta</string>
+    <string name="msg_register_success">¡Cuenta creada con éxito!</string>
+
+    <string name="error_session_expired">Error: Sesión expirada</string>
+    <string name="preview_unavailable">Vista previa no disponible para este tema</string>
+    <string name="preview_title">Vista previa: %1$s</string>
+    <string name="loading">Cargando…</string>
+    <string name="no_questions_found">No se encontraron preguntas.</string>
+    <string name="theme_all_categories">Todos los temas</string>
+    <string name="preview_correct_answer">✅ Respuesta: %1$d</string>
+    <string name="preview_no_questions">No hay preguntas para este tema.</string>
+    <string name="title_select_theme">Elegir un tema</string>
+    <string name="subtitle_select_theme">Selecciona tu desafío diario</string>
+    <string name="no_themes_available">No hay temas disponibles por ahora</string>
+    <string name="loading_themes">Cargando temas…</string>
+
+    <string name="level_already_won">¡Nivel ya completado! 🏆</string>
+    <string name="level_locked">¡Nivel bloqueado! Completa el nivel %1$d primero.</string>
+    <string name="level_1">Nivel 1: Tutorial</string>
+    <string name="level_2">Nivel 2: Sistemas</string>
+    <string name="level_3">Nivel 3: Redes</string>
+    <string name="level_4">Nivel 4: IA</string>
+    <string name="level_coming_soon">Próximamente...</string>
+    <string name="default_level_name">NIVEL 1</string>
+    <string name="desc_status_icon">Estado del nivel</string>
+
+    <string name="default_theme_name">NOMBRE DEL TEMA</string>
+    <string name="btn_close_symbol">X</string>
+    <string name="desc_delete_theme">Eliminar tema</string>
+
+    <string name="title_sheet_questions">Preguntas del tema</string>
+    <string name="import_theme_required">Por favor, introduce un nombre de tema antes de importar.</string>
+    <string name="error_invalid_question_format">La pregunta debe tener un máximo de 100 caracteres y contener solo letras, números, espacios y + - * / =</string>
+</resources>
