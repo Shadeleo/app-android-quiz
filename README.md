@@ -107,7 +107,3 @@ GEMINI_API_KEY=ta_clé_ici
 4. Lance l'application sur un émulateur ou un appareil Android (API 26+)
 
 ---
-
-## 👤 Auteur
-
-**Léo PEREIRA**
