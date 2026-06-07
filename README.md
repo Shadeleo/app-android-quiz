@@ -1,7 +1,5 @@
 # 🎯 Duel Quiz — Application Android
 
-> Léo PEREIRA | 2025–2026
-
 Une application Android de quiz éducatif interactif pour 1 ou 2 joueurs, avec génération de questions par IA (Gemini), détection de gestes par caméra et système de gamification.
 
 ---
